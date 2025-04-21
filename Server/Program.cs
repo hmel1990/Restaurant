@@ -141,43 +141,43 @@ class UdpChatServer
             switch (message)
             {
                 case "1":
-                    await ForSwitchCase(1, result.RemoteEndPoint, clienetID);
+                    await ForSwitchCase(Convert.ToInt32(message), result.RemoteEndPoint, clienetID);
                     break;
 
                 case "2":
-                    await ForSwitchCase(1, result.RemoteEndPoint, clienetID);
+                    await ForSwitchCase(Convert.ToInt32(message), result.RemoteEndPoint, clienetID);
                     break;
 
                 case "3":
-                    await ForSwitchCase(1, result.RemoteEndPoint, clienetID);
+                    await ForSwitchCase(Convert.ToInt32(message), result.RemoteEndPoint, clienetID);
                     break;
 
                 case "4":
-                    await ForSwitchCase(1, result.RemoteEndPoint, clienetID);
+                    await ForSwitchCase(Convert.ToInt32(message), result.RemoteEndPoint, clienetID);
                     break;
 
                 case "5":
-                    await ForSwitchCase(1, result.RemoteEndPoint, clienetID);
+                    await ForSwitchCase(Convert.ToInt32(message), result.RemoteEndPoint, clienetID);
                     break;
 
                 case "6":
-                    await ForSwitchCase(1, result.RemoteEndPoint, clienetID);
+                    await ForSwitchCase(Convert.ToInt32(message), result.RemoteEndPoint, clienetID);
                     break;
 
                 case "7":
-                    await ForSwitchCase(1, result.RemoteEndPoint, clienetID);
+                    await ForSwitchCase(Convert.ToInt32(message), result.RemoteEndPoint, clienetID);
                     break;
 
                 case "8":
-                    await ForSwitchCase(1, result.RemoteEndPoint, clienetID);
+                    await ForSwitchCase(Convert.ToInt32(message), result.RemoteEndPoint, clienetID);
                     break;
 
                 case "9":
-                    await ForSwitchCase(1, result.RemoteEndPoint, clienetID);
+                    await ForSwitchCase(Convert.ToInt32(message), result.RemoteEndPoint, clienetID);
                     break;
 
                 case "10":
-                    await ForSwitchCase(1, result.RemoteEndPoint, clienetID);
+                    await ForSwitchCase(Convert.ToInt32(message), result.RemoteEndPoint, clienetID);
                     break;
             }
 
